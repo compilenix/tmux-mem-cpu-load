@@ -19,7 +19,7 @@ if [ ! -s /usr/local/bin/tmux-mem-cpu-load ];
 then
   pushd ${0:a:h} #Pushd to the directory where this plugin is located.
   cmake .
-  make
+  make -j$(nproc)
   sudo make install
   popd
 fi
