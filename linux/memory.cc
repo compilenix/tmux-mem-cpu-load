@@ -46,7 +46,7 @@ void mem_status( MemoryStatus & status )
    *
    * MemTotal:        61768 kB    old
    * MemFree:          1436 kB    old
-   * MemAvailable     ????? kB    ??
+   * MemAvailable:    ????? kB    ??
    * MemShared:           0 kB    old (now always zero; not calculated)
    * Buffers:          1312 kB    old
    * Cached:          20932 kB    old
@@ -68,14 +68,9 @@ void mem_status( MemoryStatus & status )
       // get total memory
       total_mem = stoi( line.substr( substr_start, substr_len ) );
     }
-    else if( substr.compare( "MemFree" ) == 0 )
+    else if( substr.compare( "MemAvailable" ) == 0 )
     {
       used_mem = total_mem - stoi( line.substr( substr_start, substr_len ) );
-    }
-    else if( substr.compare( "Buffers" ) == 0 ||
-             substr.compare( "Cached" ) == 0 )
-    {
-      used_mem -= stoi( line.substr( substr_start, substr_len ) );
     }
   }
 

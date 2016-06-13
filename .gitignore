@@ -35,6 +35,7 @@ DartConfiguration.tcl
 
 # Logs and databases #
 ######################
+Testing/
 *.log
 *.sql
 *.sqlite
