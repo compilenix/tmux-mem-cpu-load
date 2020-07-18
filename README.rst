@@ -5,11 +5,7 @@
 CPU, RAM, and load monitor for use with tmux_
 ---------------------------------------------
 
-.. image:: https://travis-ci.org/thewtex/tmux-mem-cpu-load.svg
-  :target: https://travis-ci.org/thewtex/tmux-mem-cpu-load
-
-.. image:: https://circleci.com/gh/thewtex/tmux-mem-cpu-load.svg?style=svg
-  :target: https://circleci.com/gh/thewtex/tmux-mem-cpu-load
+Forked from `github.com/thewtex/tmux-mem-cpu-load`_.
 
 Description
 ===========
@@ -146,7 +142,7 @@ Contributions from:
 * `Pawel 'l0ner' Soltys`_ <pwslts@gmail.com>
 * Travil Heller <trav.heller@gmail.com>
 * Tony Narlock <tony@git-pull.com>
-* Compilenix <Compilenix@compilenix.org>
+* CompileNix <tmux-mem-cpu-load-mlb09uws@compilenix.org>
 
 
 .. _tmux: http://tmux.sourceforge.net/
@@ -155,3 +151,4 @@ Contributions from:
 .. _`Antigen`: https://github.com/zsh-users/antigen
 .. _`terminals with 256 color support`: http://misc.flogisoft.com/bash/tip_colors_and_formatting#terminals_compatibility
 .. _`Pawel 'l0ner' Soltys` : http://l0ner.github.io/
+.. _`github.com/thewtex/tmux-mem-cpu-load` : https://github.com/thewtex/tmux-mem-cpu-load
